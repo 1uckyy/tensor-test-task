@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.notes_panel {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 56%;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  font-size: 16px;
+  font-weight: bold;
+
+  background: #ccc;
+  border: 0;
+  width: 45%;
+  cursor: pointer;
+  height: 33px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover {
+  background: rgb(141, 141, 141);
+}
+
+.btn_add_note {
+  width: 100%;
+  margin-bottom: 17px;
+}
+
+.note_choose {
+  margin-right: 2%;
+  width: 40%;
+}
+
+.note_search_field {
+  width: 100%;
+  height: 40px;
+  border-radius: 0;
+  border: 1.5px solid black;
+  padding: 10px;
+  margin-bottom: 17px;
 }

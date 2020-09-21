@@ -1,0 +1,31 @@
+.note_sort {
+  display: flex;
+  margin-bottom: 17px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.note_sort_label {
+  margin-right: 5px;
+}
+
+.selected_sort_par {
+  cursor: pointer;
+  background-color: #ccc;
+  padding: 3px;
+}
+
+.sort_par {
+  cursor: pointer;
+  border: 1px solid black;
+  border-bottom: 0;
+  padding: 3px;
+}
+
+.sort_par:hover {
+  background-color: #ccc;
+}
+
+.sort_par:last-child {
+  border-bottom: 1px solid black;
+}

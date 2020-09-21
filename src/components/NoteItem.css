@@ -1,0 +1,18 @@
+.note_item {
+  border: 1.5px solid black;
+  margin-bottom: 12px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.note_title {
+  margin: 0;
+}
+
+.selected_note {
+  background-color: rgb(158, 158, 158);
+}
+
+.rel {
+  position: relative;
+}

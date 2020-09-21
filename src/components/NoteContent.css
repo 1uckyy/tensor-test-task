@@ -1,0 +1,29 @@
+.note_content {
+  border: 1.5px solid black;
+  padding: 15px 45px 60px 45px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btns_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.note_title_content {
+  margin: 20px 0;
+}
+
+#editTitle {
+  margin: 20px 0;
+  height: 43px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#textareaTitle {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
